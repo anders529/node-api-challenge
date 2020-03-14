@@ -40,13 +40,25 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+The two parts of Express we learned. Were Server Side Routing, and Middleware
+
 - [ ] Describe Middleware?
+
+Middleware is a helper component that processes data through an api. It can log data, alter data or route data among other things.
 
 - [ ] Describe a Resource?
 
+A Resource can be anything. It's a set of data, an endpoint or anything that needs to be referenced or
+    consumed as a part of the application.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+.status(200) or a human readable message saying that it was successful.
+
 - [ ] How can we partition our application into sub-applications?
+
+Usually by folders and URI's to differentiate components. Applications can have front end route
+    paths, and API route paths.
 
 ## Minimum Viable Product
 
